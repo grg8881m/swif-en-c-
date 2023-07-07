@@ -1,0 +1,30 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int opcion = 0;
+		
+		switch(opcion){
+		
+			case 0:
+				Console.WriteLine("Menú de Suma");	
+			break;
+								  
+			case 1:
+				Console.WriteLine("Menú de Resta	");
+			break;
+								  
+			case 2:
+				Console.WriteLine("Menú de Multiplicación");
+			break;
+								  
+			case 3:
+				Console.WriteLine("	Menú de División");
+			break;
+				
+				
+		}
+	}
+}
